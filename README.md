@@ -19,7 +19,7 @@ Clients exist for the following test frameworks:
 
 The following libraries can be used to develop new clients:
 
-* [Java](https://github.com/probe-dock/probedock-rt-java)
+* [Java](https://github.com/probedock/probedock-rt-java)
 
 <a name="setup-procedure"></a>
 ## Setup Procedure
