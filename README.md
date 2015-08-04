@@ -13,6 +13,7 @@
 Clients exist for the following test frameworks:
 
 * [Junit Client](https://github.com/probedock/probedock-rt-junit)
+* [Java ITF Client](https://github.com/probedock/probedock-rt-itf)
 
 <a name="libraries"></a>
 ## List of Libraries
