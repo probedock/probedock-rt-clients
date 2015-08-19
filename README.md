@@ -1,31 +1,31 @@
-# Probe Dock RT Clients
+# Probe Dock RT Probes
 
-**Documentation and integration guide for [Probe Dock RT](https://github.com/probedock/probedock-rt) clients.**
+**Documentation and integration guide for [Probe Dock RT](https://github.com/probedock/probedock-rt) probes.**
 
-* [List of Clients](#clients)
+* [List of Probes](#probes)
 * [List of Libraries](#libraries)
 * [Setup Procedure](#setup-procedure)
 * [Configuration Files](#configuration-files)
 
-<a name="clients"></a>
-## List of Clients
+<a name="probes"></a>
+## List of Probes
 
-Clients exist for the following test frameworks:
+Probes exist for the following test frameworks:
 
-* [Junit Client](https://github.com/probedock/probedock-rt-junit) ([demo](https://github.com/probedock/probedock-demo-junit))
-* [Java ITF Client](https://github.com/probedock/probedock-rt-itf) ([demo](https://github.com/probedock/probedock-demo-itf))
+* [Junit Probe](https://github.com/probedock/probedock-rt-junit) ([demo](https://github.com/probedock/probedock-demo-junit))
+* [Java ITF Probe](https://github.com/probedock/probedock-rt-itf) ([demo](https://github.com/probedock/probedock-demo-itf))
 
 <a name="libraries"></a>
 ## List of Libraries
 
-The following libraries can be used to develop new clients:
+The following libraries can be used to develop new probes:
 
 * [Java](https://github.com/probedock/probedock-rt-java)
 
 <a name="setup-procedure"></a>
 ## Setup Procedure
 
-This procedure documents the minimal setup for a standard Probe Dock RT client.
+This procedure documents the minimal setup for a standard Probe Dock RT probe.
 
 Create the `~/.probedock/probedock-rt.yml` configuration file (in your **home directory**).
 
@@ -41,7 +41,7 @@ Read on to learn about other [configuration properties](#configuration-files).
 <a name="configuration-files"></a>
 ## Configuration Files
 
-Most Probe Dock RT clients use [YAML](http://yaml.org) files for configuration.
+Most Probe Dock RT probes use [YAML](http://yaml.org) files for configuration.
 The following files will be loaded if they exist:
 
 * the home configuration file: `~/.probedock/probedock-rt.yml`;
@@ -56,7 +56,7 @@ result notifications gathered by Probe Dock RT will be grouped under a common an
 Here is an annotated example of a full configuration file.
 
 ```yml
-# Host and port are used by the clients to send the test result notifications. It is also used 
+# Host and port are used by the probes to send the test result notifications. It is also used 
 # to open the browser at the right address when starting Probe Dock RT
 host: 127.0.0.1
 port: 1337
@@ -65,7 +65,7 @@ port: 1337
 # be deactivated by setting this option to false.
 openBrowser: true
 
-# By default, running the tests with Probe Dock RT clients configured will send the test result notifications.
+# By default, running the tests with Probe Dock RT probes configured will send the test result notifications.
 # It is possible to deactivate this behavior by setting this option to false.
 enabled: true
 ```
