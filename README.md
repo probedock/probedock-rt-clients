@@ -13,7 +13,7 @@
 Probes exist for the following test frameworks:
 
 * [Arquillian](https://github.com/probedock/probedock-rt-arquillian-extension) ([demo](https://github.com/probedock/probedock-demo-arquillian))
-* [Junit Probe](https://github.com/probedock/probedock-rt-junit) ([demo](https://github.com/probedock/probedock-demo-junit))
+* [JUnit Probe](https://github.com/probedock/probedock-rt-junit) ([demo](https://github.com/probedock/probedock-demo-junit))
 * [Java ITF Probe](https://github.com/probedock/probedock-rt-itf) ([demo](https://github.com/probedock/probedock-demo-itf))
 
 <a name="libraries"></a>
